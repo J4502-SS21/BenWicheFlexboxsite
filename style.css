@@ -1,0 +1,28 @@
+h1 {
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  color: navy;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+text-align: center;
+  background-color: lightblue;
+}
+
+img {border : 0;}
+img a {outline : none;}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+text-align: center;
+}
+
+ul {font-family: 'PT Sans Narrow',sans-serif;
+  list-style-type: none;
+text-decoration: none;}
+
+
+h2{font-family: 'Noto Serif', serif;
+text-align: center;
+color: navy;}

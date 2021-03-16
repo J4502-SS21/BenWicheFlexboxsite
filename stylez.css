@@ -1,0 +1,164 @@
+
+
+h1 {font-size: 40px;
+  font-family'Noto Serif', sans-serif;
+  text-align: left;
+  background: grey;
+  color: navy;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 20px;
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  flex-wrap: wrap;}
+
+body {
+  background: grey;
+  text-align: center;
+  color: navy;
+  margin: 0;
+  width: 100%;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Noto-Sans', sans-serif;}
+
+img {border : 0;}
+img a {outline : none;
+border: 0;}
+
+
+nav {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  background: #7a991a;
+  text-align: center;
+  overflow: hidden;
+  overflow: hidden;
+  padding: 5px 0px;
+  padding-left: 10px;
+  padding-right: 0px;
+  border-bottom: 0px #7a991a;
+  width: 99%;
+  margin: 0;
+  border: 0;}
+
+nav a:hover {
+color: black;
+background: grey;
+text-decoration: none;
+}
+
+nav a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.experience {
+  border: 2px solid black;
+  padding: 1rem;
+  margin: 1rem 0px;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+li {
+  background: grey;
+  width: 33%;
+  float: left;
+  padding-bottom: 5px;
+  margin: 8px auto;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+p {
+background: grey;
+font-family: 'Noto-sans';
+text-align: left;
+  font-size: 25px;
+  margin: 7px auto;
+  padding-left: 60px;
+}
+
+
+h2 {
+  font-family: 'Noto Serif', serif;
+  font-size: 30px;
+  color: navy;
+  text-align: left;
+  padding-left: 60px;
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: left;
+  background: grey;
+  padding-left: 60px;
+  padding-right: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: left;
+  background: grey;
+  padding-left: 60px;
+  padding-right: 20px;
+}
+
+div {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+a {
+  font-family: 'Roboto Slab', serif;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  text-decoration: none;
+}
+
+
+a:hover {
+  background: white;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  text-align: left;
+  margin: 2px;
+  width: 50%;
+  max-width: 250px;
+  min-width: 150px;
+  text-decoration: none;}
+
+
+
+

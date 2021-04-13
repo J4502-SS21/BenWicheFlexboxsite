@@ -89,7 +89,6 @@ nav a:visited {
 #menu_nav {display:none}
 
 ul {
-  flex-direction: column;
   list-style-type: none;
   text-decoration: none;
   font-size: 30px;

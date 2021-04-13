@@ -1,5 +1,4 @@
 
-#menu_trigger{display:none}
 
 h1 {font-size: 40px;
   font-family'Noto-Serif', sans-serif;
@@ -68,6 +67,9 @@ nav a:visited {
 }
 
 #menu_trigger {display:none;}
+@media (max-width:850px){
+  li{width:50%;}
+}
 
 @media (max-width:600px){
 
@@ -86,7 +88,7 @@ ul {
   font-style: italic;
   font-weight: bold;
   text-transform: uppercase;}
-}
+
 
 li {
   background: white;
@@ -96,7 +98,7 @@ li {
   margin: 8px auto;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-}
+}}
 
 p {
 background: white;

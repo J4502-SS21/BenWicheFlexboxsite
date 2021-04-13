@@ -1,173 +1,121 @@
-
-
-h1 {font-size: 40px;
-  font-family'Noto-Serif', sans-serif;
-  text-align: left;
-  background: white;
-  color: navy;
-  padding-top: 40px;
-  padding-left: 60px;
-  padding-right: 20px;
-  display: flex;
-  width: 50%;
-  flex-direction: row;
-  flex-wrap: wrap;}
-
 body {
-  background: white;
+  margin: 0;
+  background: #555;
+  color: #FFF;
   text-align: center;
-  color: navy;
-  margin: 0;
-  width: 100%;
-  font-size: 10px;
-  font-weight: bold;
-  font-family: 'Noto-Sans', sans-serif;}
-
-img {border : 0;}
-img a {outline : none;
-border: 0;}
-
-
-nav {
-  width: 100%;
-  font-family: 'Noto-Sans', sans-serif;
-  font-size: 50px;
-  background: green;
-  text-align: center
-  overflow: hidden;
-  overflow: hidden;
-  padding: 5px 0px;
-  padding-left: 10px;
-  padding-right: 0px;
-  width: 99%;
-  margin: 0;
-  border: 0;}
-
-nav a:hover {
-color: black;
-background: white;
-text-decoration: none;
+  width:100%;
+  margin-bottom: 100px;
+  font-family: 'Noto-sans', sans-serif;
+  font-weight: 400;
 }
 
-nav a:visited {
-  color: black;
-  text-decoration: none;
+h1 {
+  font-size: 36px;
 }
 
-.experience {
-  border: 2px solid black;
-  padding: 1rem;
-  margin: 1rem 0px;
-  padding: 1rem;
-  box-sizing: border-box;
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  flex-wrap: wrap;
+h2 {
+  font-size: 28px;
 }
 
-#menu_trigger {display:none;}
-
-
-@media (max-width:600px){
-
-  #menu_trigger {display: block;
-    position: absolute;
-    top: 10px;
-    right:10px;
-
-}
-#menu_nav {display:none}
-
-ul {
-  list-style-type: none;
-  text-decoration: none;
-  font-size: 30px;
-  font-style: italic;
-  font-weight: bold;
-  text-transform: uppercase;}
-)
-
-li { flex-direction: column;
-  background: white;
-  width: 33%;
-  float: left;
-  padding-bottom: 5px;
-  margin: 8px auto;
-  font-family: 'Open Sans', sans-serif;
-  text-decoration: none;
+h1, h2 {
+  font-weight: 700;
+  padding: 0px;
+  margin: 0px;
 }
 
 p {
-background: white;
-font-family: 'Noto-sans';
-text-align: left;
-  font-size: 25px;
-  margin: 7px auto;
-  padding-left: 60px;
-}
-
-
-h2 {
-  font-family: 'Noto-Serif', serif;
-  font-size: 30px;
-  color: navy;
-  text-align: left;
-  padding-left: 60px;
-  padding-right: 20px;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: 25px;
-  text-align: left;
-  background: white;
-  padding-left: 60px;
-  padding-right: 20px;
-}
-
-h4 {
-  font-size: 20px;
-  text-align: left;
-  background: white;
-  padding-left: 60px;
-  padding-right: 20px;
-}
-
-div {
   font-size: 18px;
-  text-align: center;
-  padding-bottom: 10px;
+  margin: 7px auto;
+}
+
+nav {
+  background: black;
+  color:white;
+  width: 100%;
+  display: inline-block;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 3px solid white;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 33.333%;
+  float: left;
 }
 
 a {
-  font-family: 'Noto-Serif', serif;
-  color: black;
   text-decoration: none;
-  font-size: 20px;
+  font-style: italic;
   font-weight: bold;
   text-transform: uppercase;
-  border: none;
-  text-decoration: none;
+  color: #FFFF61;
 }
 
+a:visited {
 
-a:hover {
-  background: white;
-  text-decoration: none;
 }
 
-nav a:visited {
+nav a:hover, p a:hover {
+  background-color: white;
   color: black;
-  text-decoration: none;
 }
 
 img {
   border: 0;
-  text-align: left;
-  margin: 2px;
-  width: 200%;
-  length: 200%;
-  max-width: 250px;
-  min-width: 150px;
-  text-decoration: none;}
+  margin: 35px;
+  width: 75%;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+section {
+  background: #FFFF61;
+  color: black;
+  padding: 20px;
+  box-shadow: 1px 1px 15px black;
+}
+
+#menu_trigger {
+  display: none;
+}
+
+@media (max-width: 850px) {
+
+  li {
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  ul {
+    flex-direction: column;
+  }
+
+  li {
+    width: 100%;
+  }
+
+  #menu_nav {
+    display:none;
+  }
+
+  #menu_trigger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+}

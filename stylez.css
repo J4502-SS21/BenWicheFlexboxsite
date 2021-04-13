@@ -66,6 +66,9 @@ nav a:visited {
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+#menu_trigger {display:none;}
+
 @media {
 
   #menu_trigger {display: block;

@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: white;
+  background: grey;
   color: navy;
   text-align: center;
   width:100%;
@@ -78,7 +78,6 @@ img {
 }
 
 section {
-  background: #FFFF61;
   color: black;
   padding: 20px;
   box-shadow: 1px 1px 15px black;

@@ -88,7 +88,7 @@ ul {
   text-transform: uppercase;}
 
 
-li {
+li { flex-direction: colusmn;
   background: white;
   width: 33%;
   float: left;

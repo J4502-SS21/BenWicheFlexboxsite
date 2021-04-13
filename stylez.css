@@ -72,9 +72,9 @@ nav a:hover, p a:hover {
 img {
   border: 0;
   margin: 35px;
-  width: 75%;
+  width: 150%;
   min-width: 200px;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 section {

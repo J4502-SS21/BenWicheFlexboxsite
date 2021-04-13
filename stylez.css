@@ -86,9 +86,9 @@ ul {
   font-style: italic;
   font-weight: bold;
   text-transform: uppercase;}
+)
 
-
-li { flex-direction: colusmn;
+li { flex-direction: column;
   background: white;
   width: 33%;
   float: left;
@@ -96,7 +96,7 @@ li { flex-direction: colusmn;
   margin: 8px auto;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-}}
+}
 
 p {
 background: white;

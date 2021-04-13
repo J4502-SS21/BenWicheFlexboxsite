@@ -69,7 +69,7 @@ nav a:visited {
 
 #menu_trigger {display:none;}
 
-@media {
+@media (max-width:600px){
 
   #menu_trigger {display: block;
     position: absolute;
@@ -77,6 +77,7 @@ nav a:visited {
     right:10px;
 
 }
+#menu_nav {display:none}
 
 ul {
   list-style-type: none;
